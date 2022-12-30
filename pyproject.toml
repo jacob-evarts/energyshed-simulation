@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "energyshed-demo"
+version = "0.1.0"
+description = ""
+authors = [
+            "Brian Evarts <evartsb@gmail.com",
+            "Jacob Evarts <jacob.i.evarts@gmail.com>",
+]
+readme = "README.md"
+packages = [{include = "energyshed_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+networkx = "^2.8.8"
+numpy = "^1.24.1"
+matplotlib = "^3.6.2"
+seaborn = "^0.12.1"
+
+
+[tool.poetry.dev-dependencies]
+black = "^22.12.0"
+pylint = "^2.15.9"
+tox = "^4.1.1"
+mypy = "^0.991"
+pytest = "^7.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
