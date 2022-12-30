@@ -1,6 +1,6 @@
 # energyshed_demo
 
-Install poetry 
-Run `poetry install` inside main directory
-Run `poetry shell` to start environment
-Run code normally
+1. Install poetry 
+2. Run `poetry install` inside main directory
+3. Run `poetry shell` to start environment
+4. Run code normally
