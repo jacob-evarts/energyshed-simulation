@@ -3,8 +3,7 @@ name = "energyshed-demo"
 version = "0.1.0"
 description = ""
 authors = [
-            "Brian Evarts <evartsb@gmail.com",
-            "Jacob Evarts <jacob.i.evarts@gmail.com>",
+            "Jacob Evarts <jacob.i.evarts@gmail.com>", 
 ]
 readme = "README.md"
 packages = [{include = "energyshed_demo"}]
@@ -16,6 +15,8 @@ networkx = "^2.8.8"
 numpy = "^1.24.1"
 matplotlib = "^3.6.2"
 seaborn = "^0.12.1"
+agentpy = "^0.1.5"
+ipykernel = "^6.19.4"
 
 
 [tool.poetry.dev-dependencies]
