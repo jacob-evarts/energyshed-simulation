@@ -24,7 +24,7 @@ class EnergyShedModel(ap.Model):
         # self.network = self.agents.network = ap.Network(self, graph)
         # self.network.add_agents(self.agents, self.graph.nodes)
 
-        # Prepare a grid
+        # Initialize a network
         self.network = self.agents.network = ap.Grid(self, self.p.grid_size)
         self.network.add_agents(self.agents, random=True)
 
@@ -52,7 +52,12 @@ class EnergyShedModel(ap.Model):
         """Define the models' events per simulation step."""
         # Update weather
         self.sunny = True if random.random() < SUN_PROBABILITY else False
+
+        self.buy_queue = []
+        self.sell_queue = []
+
         self.agents.update_energy(self.sunny)
+        self.agents.set_status()
         self.agents.energy_decision()
 
     def end(self):
