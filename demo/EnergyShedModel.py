@@ -13,20 +13,14 @@ class EnergyShedModel(ap.Model):
         # Initialize weather
         self.sunny = True if random.random() < SUN_PROBABILITY else False
 
-        self.status_map = {-1: "buy", 0: "none", 1: "sell"}
         # Create agents
         self.agents = ap.AgentDList(self, self.p.population, ReflexHousehold)
 
-        # Prepare a small-world network
-        # graph = nx.watts_strogatz_graph(
-        #     self.p.population, self.p.number_of_neighbors, self.p.network_randomness
-        # )
-        # self.network = self.agents.network = ap.Network(self, graph)
-        # self.network.add_agents(self.agents, self.graph.nodes)
-
         # Initialize a network
         self.network = self.agents.network = ap.Grid(self, self.p.grid_size)
-        self.network.add_agents(self.agents, random=True)
+        self.network.add_agents(self.agents)
+
+        self.status_map = {-1: "buy", 0: "none", 1: "sell"}
 
     def update(self):
         """Record variables after setup and each step."""
@@ -38,8 +32,12 @@ class EnergyShedModel(ap.Model):
 
         self["energy_production"] = sum(self.agents.production)
         self.record("energy_production")
-        self["energy_transfer"] = sum(self.agents.energy_trans)
-        self.record("energy_transfer")
+        self["local_transfer"] = sum(self.agents.local_trans)
+        self.record("local_transfer")
+        self["grid_transfer"] = sum(self.agents.grid_trans)
+        self.record("grid_transfer")
+        self["cost"] = sum(self.agents.cost)
+        self.record("cost")
         self["weather"] = "Sunny" if self.sunny else "Cloudy"
         self.record("weather")
 
@@ -47,14 +45,12 @@ class EnergyShedModel(ap.Model):
         self.agents.record("production")
         self.agents.record("consumption")
         self.agents.record("energy_bal")
+        self.agents.record("cost")
 
     def step(self):
         """Define the models' events per simulation step."""
         # Update weather
         self.sunny = True if random.random() < SUN_PROBABILITY else False
-
-        self.buy_queue = []
-        self.sell_queue = []
 
         self.agents.update_energy(self.sunny)
         self.agents.set_status()
@@ -63,14 +59,17 @@ class EnergyShedModel(ap.Model):
     def end(self):
         """Record evaluation measures at the end of the simulation."""
         # Record final evaluation measures
-        self.report("Per household energy transfer", self.agents.energy_trans)
+        self.report("Per household local energy transfer", self.agents.local_trans)
+        self.report("Per household grid energy transfer", self.agents.grid_trans)
         self.report("Peak energy production", max(self.log["energy_production"]))
         self.report("Total Energy Production", sum(self.log["energy_production"]))
-        self.report("Total Energy Transfer", sum(self.log["energy_transfer"]))
+        self.report("Total local Transfer", sum(self.log["local_transfer"]))
+        self.report("Total grid Transfer", sum(self.log["grid_transfer"]))
+        self.report("Total Cost", sum(self.agents.cost))
 
     def get_cost(self):
         """Return the cost of the energy transfer."""
-        return sum(self.agents.energy_trans)
+        return sum(self.agents.cost)
 
     def get_weather(self):
         """Return the weather of the current step."""

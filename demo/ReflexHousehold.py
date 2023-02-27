@@ -12,15 +12,16 @@ class ReflexHousehold(ap.Agent):
         self.consumption = 10
         self.energy_bal = self.production - self.consumption
 
-        self.energy_trans = 0
+        self.local_trans = 0
+        self.grid_trans = 0
         self.cost = 0
 
     def update_energy(self, sunny):
         # Account for variability in production and consumption (shading, wind, temperature)
         if sunny:
-            self.production = random.normalvariate(11, 2)
-        else:
             self.production = random.normalvariate(9, 2)
+        else:
+            self.production = random.normalvariate(7, 2)
 
         self.energy_bal = self.production - self.consumption
 
@@ -45,41 +46,38 @@ class ReflexHousehold(ap.Agent):
             # Buy all of neighbor's energy
             if abs(self.energy_bal) >= seller.energy_bal:
                 # Transfer
-                seller.energy_trans = seller.energy_bal
-                self.energy_trans = -seller.energy_bal
+                self.local_trans += abs(seller.energy_bal)
                 # Balance
                 self.energy_bal = self.energy_bal + seller.energy_bal
                 seller.energy_bal = 0
                 seller.status = 0
                 # Cost
-                seller.cost += seller.energy_trans
-                self.cost -= seller.energy_trans
+                seller.cost += seller.local_trans
+                self.cost -= seller.local_trans * distance
 
-                # if self.energy_bal < 0:
-                #     self._buy_energy()
+                if self.energy_bal < 0:
+                    self._buy_energy()
 
             # Buy some of neighbor's energy
             elif abs(self.energy_bal) < seller.energy_bal:
                 # Transfer
-                self.energy_trans = self.energy_bal
-                seller.energy_trans = abs(self.energy_bal)
+                self.local_trans += abs(self.energy_bal)
                 # Balance
                 seller.energy_bal = seller.energy_bal + self.energy_bal
                 self.energy_bal = 0
                 self.status = 0
                 # Cost
-                seller.cost += seller.energy_trans
-                self.cost -= seller.energy_trans
+                seller.cost += seller.local_trans
+                self.cost -= seller.local_trans * distance
 
         # Buy from the grid
         else:
             # Trnasfer
-            self.energy_trans = self.energy_bal
+            self.grid_trans += self.energy_bal
             # Balance
             self.energy_bal = 0
-            self.status = 0
             # Cost
-            self.cost -= self.energy_bal
+            self.cost -= self.energy_bal * 5
 
     def _bfs(self):
         queue = NodeQueue()
