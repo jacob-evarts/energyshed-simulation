@@ -2,7 +2,10 @@ import random
 import agentpy as ap
 import networkx as nx
 
-from ReflexHousehold import ReflexHousehold
+from Agents.GridHousehold import GridHousehold
+from Agents.ReflexHousehold import ReflexHousehold
+from Agents.MDPHousehold import MDPHousehold
+
 
 SUN_PROBABILITY = 0.5
 
@@ -14,7 +17,12 @@ class EnergyShedModel(ap.Model):
         self.sunny = True if random.random() < SUN_PROBABILITY else False
 
         # Create agents
-        self.agents = ap.AgentDList(self, self.p.population, ReflexHousehold)
+        if self.p.agent_type == "grid":
+            self.agents = ap.AgentDList(self, self.p.population, GridHousehold)
+        elif self.p.agent_type == "reflex":
+            self.agents = ap.AgentDList(self, self.p.population, ReflexHousehold)
+        elif self.p.agent_type == "mdp":
+            self.agents.ap.AgentDlist(self, self.p.population, MDPHousehold)
 
         # Initialize a network
         self.network = self.agents.network = ap.Grid(self, self.p.grid_size)
@@ -55,6 +63,7 @@ class EnergyShedModel(ap.Model):
         self.agents.update_energy(self.sunny)
         self.agents.set_status()
         self.agents.energy_decision()
+        self.agents.sell_remaining()
 
     def end(self):
         """Record evaluation measures at the end of the simulation."""

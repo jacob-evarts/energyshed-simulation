@@ -1,16 +1,10 @@
-import random
-import agentpy as ap
+from Agents.Household import Household
 
 
-class MDPHousehold(ap.Agent):
+class MDPHousehold(Household):
     def setup(self):
         """Initialize a new variable at agent creation."""
-        self.status = "none"
-        self.production = 10
-        self.consumption = 10
-        self.energy_bal = self.production - self.consumption
-
-        self.energy_trans = 0
+        super().setup()
 
         self.states = [
             (energy, weather) for energy in [-1, 0, 1] for weather in ["sunny", "cloudy"]
@@ -340,39 +334,16 @@ class MDPHousehold(ap.Agent):
             }
         }
 
-    def energy_decision(self, weather):
+    def update_energy(self, sunny):
+        super().update_energy(sunny)
 
-        # Excess of energy
-        if self.energy_bal > 0:
-            self.status = "sell"
-            self._sell_energy()
+    def set_status(self):
+        super().set_status()
+
+    def energy_decision(self):
         # Need to buy energy
-        elif self.energy_bal < 0:
-            self.status = "buy"
+        if self.status == -1:
             self._buy_energy()
-        else:
-            self.status = "none"
-
-    def _sell_energy(self):
-        # sell energy to neighbor who wants to buy it
-        for n in self.network.neighbors(self):
-            # Assume you only have information about the neighbors flag
-            if n.status == "buy":
-                # sell them all they need
-                if self.energy_bal >= abs(n.energy_bal):
-                    self.energy_bal = self.energy_bal + n.energy_bal
-                    self.energy_trans = abs(n.energy_bal)
-                    n.energy_bal = 0
-                    n.status = "none"
-                    if self.energy_bal == 0:
-                        break
-
-                # sell them all I have
-                elif self.energy_bal < abs(n.energy_bal):
-                    n.energy_bal = n.energy_bal + self.energy_bal
-                    self.energy_trans = self.energy_bal
-                    self.energy_bal = 0
-                    self.status = "none"
 
     def _buy_energy(self):
         # buy energy from neighbor
@@ -395,19 +366,6 @@ class MDPHousehold(ap.Agent):
                     n.energy_trans = abs(self.energy_bal)
                     self.energy_bal = 0
                     self.status = "none"
-
-    def _store_energy(self):
-        available_storage = self.storage_cap - self.storage_util
-        # Store everything
-        if available_storage >= self.energy_bal:
-            self.status = "store"
-            self.storage_util = self.storage_util + self.energy_bal
-            self.energy_bal = 0
-        # Store what will fit and sell the rest
-        else:
-            self.storage_util = self.storage_util + available_storage
-            self.energy_bal = self.energy_bal - available_storage
-            self._sell_energy()
 
     def _get_reward(self, state, action, next_state):
         return self.rewards[state][action][next_state]

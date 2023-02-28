@@ -1,43 +1,21 @@
-import random
-import agentpy as ap
-
 from node_queue import NodeQueue
+from Agents.Household import Household
 
 
-class ReflexHousehold(ap.Agent):
+class ReflexHousehold(Household):
     def setup(self):
         """Initialize a new variable at agent creation."""
-        self.status = 0
-        self.production = 10
-        self.consumption = 10
-        self.energy_bal = self.production - self.consumption
-
-        self.local_trans = 0
-        self.grid_trans = 0
-        self.cost = 0
+        super().setup()
 
     def update_energy(self, sunny):
-        # Account for variability in production and consumption (shading, wind, temperature)
-        if sunny:
-            self.production = random.normalvariate(9, 2)
-        else:
-            self.production = random.normalvariate(7, 2)
-
-        self.energy_bal = self.production - self.consumption
+        super().update_energy(sunny)
 
     def set_status(self):
-        # Excess of energy
-        if self.energy_bal > 0:
-            self.status = 1
-        # Need to buy energy
-        elif self.energy_bal < 0:
-            self.status = -1
-        else:
-            self.status = 0
+        super().set_status()
 
     def energy_decision(self):
         # Need to buy energy
-        if self.energy_bal < 0:
+        if self.status == -1:
             self._buy_energy()
 
     def _buy_energy(self):
@@ -46,14 +24,15 @@ class ReflexHousehold(ap.Agent):
             # Buy all of neighbor's energy
             if abs(self.energy_bal) >= seller.energy_bal:
                 # Transfer
-                self.local_trans += abs(seller.energy_bal)
+                transfered = abs(seller.energy_bal)
+                self.local_trans += transfered
                 # Balance
                 self.energy_bal = self.energy_bal + seller.energy_bal
                 seller.energy_bal = 0
                 seller.status = 0
                 # Cost
-                seller.cost += seller.local_trans
-                self.cost -= seller.local_trans * distance
+                seller.cost += transfered
+                self.cost -= transfered * distance
 
                 if self.energy_bal < 0:
                     self._buy_energy()
@@ -61,23 +40,30 @@ class ReflexHousehold(ap.Agent):
             # Buy some of neighbor's energy
             elif abs(self.energy_bal) < seller.energy_bal:
                 # Transfer
-                self.local_trans += abs(self.energy_bal)
+                transfered = abs(self.energy_bal)
+                self.local_trans += transfered
                 # Balance
                 seller.energy_bal = seller.energy_bal + self.energy_bal
                 self.energy_bal = 0
                 self.status = 0
                 # Cost
-                seller.cost += seller.local_trans
-                self.cost -= seller.local_trans * distance
+                seller.cost += transfered
+                self.cost -= transfered * distance
 
         # Buy from the grid
         else:
-            # Trnasfer
-            self.grid_trans += self.energy_bal
+            # Transfer
+            transfered = abs(self.energy_bal)
+            self.grid_trans += transfered
             # Balance
             self.energy_bal = 0
             # Cost
-            self.cost -= self.energy_bal * 5
+            self.cost -= transfered * 10
+
+    def sell_remaining(self):
+        if self.energy_bal > 0:
+            self.energy_bal = 0
+            self.cost += self.energy_bal
 
     def _bfs(self):
         queue = NodeQueue()
