@@ -51,11 +51,11 @@ def transfer_lineplot(data, ax):
 
 def animation_plot(model, ax):
     group_grid = model.network.attr_grid("status")
-    color_dict = {0: "b", -1: "r", 1: "g"}
+    color_dict = {-1: "r", 0: "b", 1: "g"}
     cmap = colors.ListedColormap([color_dict[key] for key in color_dict])
     ap.gridplot(group_grid, cmap=cmap, ax=ax)
     ax.set_title(
         f"Energyshed model \n Time-step: {model.t}, "
-        f"Energy Transfer: {round(model.get_cost(), 3)},"
+        f"Total cost: {round(model.get_cost(), 2)},"
         f"Weather: {model.get_weather()}"
     )

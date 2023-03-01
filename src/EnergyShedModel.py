@@ -7,16 +7,15 @@ from Agents.ReflexHousehold import ReflexHousehold
 from Agents.MDPHousehold import MDPHousehold
 
 
-SUN_PROBABILITY = 0.5
-
-
 class EnergyShedModel(ap.Model):
     def setup(self):
         """Initialize the agents and network of the model."""
         # Initialize weather
-        self.sunny = True if random.random() < SUN_PROBABILITY else False
+        self.sun_prob = self.p.sunny_prob
+        self.sunny = True if random.random() < self.sun_prob else False
 
         # Create agents
+        self.percent_producers = self.p.percent_producers
         if self.p.agent_type == "grid":
             self.agents = ap.AgentDList(self, self.p.population, GridHousehold)
         elif self.p.agent_type == "reflex":
@@ -58,12 +57,20 @@ class EnergyShedModel(ap.Model):
     def step(self):
         """Define the models' events per simulation step."""
         # Update weather
-        self.sunny = True if random.random() < SUN_PROBABILITY else False
+        self.sunny = True if random.random() < self.sun_prob else False
 
         self.agents.update_energy(self.sunny)
         self.agents.set_status()
         self.agents.energy_decision()
         self.agents.sell_remaining()
+
+        num_selling = 0
+        num_buying = 0
+        for agent in self.agents:
+            if agent.status == 1:
+                num_selling += 1
+            elif agent.status == -1:
+                num_buying += 1
 
     def end(self):
         """Record evaluation measures at the end of the simulation."""
@@ -74,6 +81,7 @@ class EnergyShedModel(ap.Model):
         self.report("Total Energy Production", sum(self.log["energy_production"]))
         self.report("Total local Transfer", sum(self.log["local_transfer"]))
         self.report("Total grid Transfer", sum(self.log["grid_transfer"]))
+        self.report("Number of producers", len(self.agents.select(self.agents.producer)))
         self.report("Total Cost", sum(self.agents.cost))
 
     def get_cost(self):

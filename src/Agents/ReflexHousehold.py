@@ -15,7 +15,7 @@ class ReflexHousehold(Household):
 
     def energy_decision(self):
         # Need to buy energy
-        if self.status == -1:
+        if self.energy_bal < 0:
             self._buy_energy()
 
     def _buy_energy(self):
@@ -29,7 +29,6 @@ class ReflexHousehold(Household):
                 # Balance
                 self.energy_bal = self.energy_bal + seller.energy_bal
                 seller.energy_bal = 0
-                seller.status = 0
                 # Cost
                 seller.cost += transfered
                 self.cost -= transfered * distance
@@ -45,7 +44,6 @@ class ReflexHousehold(Household):
                 # Balance
                 seller.energy_bal = seller.energy_bal + self.energy_bal
                 self.energy_bal = 0
-                self.status = 0
                 # Cost
                 seller.cost += transfered
                 self.cost -= transfered * distance
@@ -73,7 +71,7 @@ class ReflexHousehold(Household):
             parent_node = queue.dequeue()
             for child in self.network.neighbors(parent_node):
                 # If the node is a seller, return it
-                if child.status == 1:
+                if child.energy_bal > 0:
                     return child, distances[parent_node] + 1
                 if child not in distances:
                     distances[child] = distances[parent_node] + 1

@@ -5,7 +5,11 @@ import agentpy as ap
 class Household(ap.Agent):
     def setup(self):
         self.status = 0
-        self.production = 10
+        self.producer = random.random() < self.model.percent_producers
+        if self.producer:
+            self.production = random.normalvariate(10, 2)
+        else:
+            self.production = 0
         self.consumption = 10
         self.energy_bal = self.production - self.consumption
 
@@ -14,11 +18,12 @@ class Household(ap.Agent):
         self.cost = 0
 
     def update_energy(self, sunny):
-        # Account for variability in production and consumption (shading, wind, temperature)
-        if sunny:
-            self.production = random.normalvariate(10, 2)
-        else:
-            self.production = random.normalvariate(8, 2)
+        # Account for variability in production (shading, wind, temperature)
+        if self.producer:
+            if sunny:
+                self.production = random.normalvariate(12, 2)
+            else:
+                self.production = random.normalvariate(7, 2)
 
         self.energy_bal = self.production - self.consumption
 

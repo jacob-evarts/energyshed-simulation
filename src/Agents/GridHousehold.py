@@ -14,7 +14,7 @@ class GridHousehold(Household):
 
     def energy_decision(self):
         # Need to buy energy
-        if self.status == -1:
+        if self.energy_bal < 0:
             self._buy_energy()
 
     def _buy_energy(self):
