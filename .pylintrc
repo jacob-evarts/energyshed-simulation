@@ -1,0 +1,17 @@
+[MESSAGES CONTROL]
+
+# Disable specific messages
+disable=too-few-public-methods,missing-module-docstring,fixme
+
+# Set good names.
+good-names=i,j,u,v,w,z,p
+
+[DESIGN]
+
+# Maximum number of arguments for function / method
+max-args=10
+
+[SIMILARITIES]
+
+# Minimum lines number of a similarity.
+min-similarity-lines=7
