@@ -26,6 +26,13 @@ def cost_lineplot(data, ax):
     y = -data["daily_cost"][1:]
 
     ax.plot(x, y)
+    # Fit a linear regression model
+    coeffs = np.polyfit(x, y, 1)
+    m = coeffs[0]
+    b = coeffs[1]
+
+    # Plot the regression line
+    ax.plot(x, m * x + b, color="black", linestyle="--")
 
     ax.legend()
     ax.set_xlim(0, max(1, len(x) - 1))

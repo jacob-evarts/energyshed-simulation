@@ -18,12 +18,11 @@ class QHousehold(Household):
         self.q_values = {}
         for state in self.state_space:
             for action in self.action_space:
-
                 self.q_values[(state, action)] = 0
 
         # Exploration factor
-        self.learning_rate = 0.1
-        self.epsilon = 0.08
+        self.learning_rate = 0.2
+        self.epsilon = 0.1
         self.discount_factor = 0.9
 
     def update_energy(self, sunny):
@@ -63,24 +62,25 @@ class QHousehold(Household):
         return action
 
     def update_q_values(self, forcast):
-        state = self.current_state
-        action = self.action
         reward = self.get_reward()
         next_state = (np.sign(self.energy_bal), forcast)
 
-        current_q_value = self.get_q_value(state, action)
+        current_q_value = self.get_q_value(self.current_state, self.action)
         next_q_values = [self.get_q_value(next_state, action) for action in self.action_space]
         next_q_value = max(next_q_values)
 
         sample = reward + self.discount_factor * next_q_value
         new_q_value = (1 - self.learning_rate) * current_q_value + self.learning_rate * sample
 
-        self.q_values[(state, action)] = new_q_value
+        self.q_values[(self.current_state, self.action)] = new_q_value
+
+    def get_q_values(self):
+        return dict(self.q_values)
 
     def get_reward(self):
         reward = 0
         if self.energy_bal < 0:
-            reward -= 200
+            reward -= 1000
         reward += self.daily_cost
         return reward
 
