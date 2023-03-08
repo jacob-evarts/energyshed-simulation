@@ -9,13 +9,26 @@ class GridHousehold(Household):
     def update_energy(self, sunny):
         super().update_energy(sunny)
 
-    def set_status(self):
-        super().set_status()
-
     def energy_decision(self):
-        # Need to buy energy
         if self.energy_bal < 0:
+            self.action = "buy"
+            self.status = -1
+        elif self.energy_bal > 0:
+            self.action = "sell"
+            self.status = 1
+
+    def buy(self):
+        # Need to buy energy
+        if self.action == "buy":
             self._buy_energy()
+
+    def store(self):
+        pass
+
+    def sell(self):
+        if self.action == "sell":
+            self.daily_cost += self.energy_bal
+            self.total_cost += self.daily_cost
 
     def _buy_energy(self):
         # Buy from the grid
@@ -25,9 +38,5 @@ class GridHousehold(Household):
         # Balance
         self.energy_bal = 0
         # Cost
-        self.cost -= transfered * 10
-
-    def sell_remaining(self):
-        if self.energy_bal > 0:
-            self.energy_bal = 0
-            self.cost += self.energy_bal
+        self.daily_cost += -(transfered * 10)
+        self.total_cost += self.daily_cost

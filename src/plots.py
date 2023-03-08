@@ -2,14 +2,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib.colors as colors
 import agentpy as ap
+import numpy as np
 
 
 def status_stackplot(data, ax):
     """Stackplot of people's condition over time."""
     x = data.index.get_level_values("t")
-    y = [data[var] for var in ["none", "buy", "sell"]]
+    y = [data[var] for var in ["store", "buy", "sell"]]
 
-    color_map = {"labels": ["none", "buy", "sell"], "colors": ["b", "r", "g"]}
+    color_map = {"labels": ["store", "buy", "sell"], "colors": ["b", "r", "g"]}
     ax.stackplot(x, y, **color_map)
 
     ax.legend()
@@ -21,32 +22,30 @@ def status_stackplot(data, ax):
 
 def cost_lineplot(data, ax):
     """Stackplot of people's condition over time."""
-    x = data.index.get_level_values("t")
-    y = -data["cost"]
+    x = data.index.get_level_values("t")[1:]
+    y = -data["daily_cost"][1:]
 
     ax.plot(x, y)
 
     ax.legend()
     ax.set_xlim(0, max(1, len(x) - 1))
     ax.set_xlabel("Time steps")
-    ax.set_ylabel("Cost (arbitrary units)")
+    ax.set_ylabel("Daily cost (arbitrary units)")
 
 
 def transfer_lineplot(data, ax):
     """Stackplot of people's condition over time."""
-    x = data.index.get_level_values("t")
-    local = data["local_transfer"]
-    grid = data["grid_transfer"]
+    x = data.index.get_level_values("t")[1:]
+    local = data["local_transfer"][1:]
+    grid = data["grid_transfer"][1:]
 
     sns.set()
     ax.plot(x, local, label="Local transfer")
     ax.plot(x, grid, label="Grid transfer")
 
     ax.legend()
-    ax.set_xlim(0, max(1, len(x) - 1))
-    ax.set_ylim(0, max(local.max(), grid.max()))
     ax.set_xlabel("Time steps")
-    ax.set_ylabel("Energy (arbitrary units)")
+    ax.set_ylabel("Daily energy sources (arbitrary units)")
 
 
 def animation_plot(model, ax):
