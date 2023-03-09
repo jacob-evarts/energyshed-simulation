@@ -2,18 +2,11 @@ from Agents.Household import Household
 
 
 class GridHousehold(Household):
-    def setup(self):
-        """Initialize a new variable at agent creation."""
-        super().setup()
-
-    def update_energy(self, sunny):
-        super().update_energy(sunny)
-
     def energy_decision(self):
         if self.energy_bal < 0:
             self.action = "buy"
             self.status = -1
-        elif self.energy_bal > 0:
+        elif self.energy_bal >= 0:
             self.action = "sell"
             self.status = 1
 

@@ -19,11 +19,11 @@ class Household(ap.Agent):
         self.daily_cost = 0
         self.total_cost = 0
 
-    def update_energy(self, sunny):
+    def update_energy(self, weather):
         # Account for variability in production (shading, wind, temperature)
         if self.producer:
-            if sunny:
-                self.production = random.normalvariate(12, 2)
+            if weather == "sun":
+                self.production = random.normalvariate(11, 2)
             else:
                 self.production = random.normalvariate(7, 2)
 

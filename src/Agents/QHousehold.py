@@ -1,17 +1,23 @@
 import numpy as np
 from node_queue import NodeQueue
 
-from Agents.Household import Household
+from Agents.ReflexHousehold import ReflexHousehold
 
 
-class QHousehold(Household):
+class QHousehold(ReflexHousehold):
     def setup(self):
         """Initialize a new variable at agent creation."""
         super().setup()
+        self.storage = 0
 
-        self.action_space = ["buy", "sell"]
+        self.action_space = ["buy", "sell", "store"]
 
-        self.state_space = [(energy, weather) for energy in [-1, 0, 1] for weather in [True, False]]
+        self.state_space = [
+            (energy, weather, storage)
+            for energy in [-1, 1]
+            for weather in ["sun", "clouds"]
+            for storage in [0, 1]
+        ]
         self.current_state = None
 
         # Initialize Q values with zeros
@@ -22,12 +28,23 @@ class QHousehold(Household):
 
         # Exploration factor
         self.learning_rate = 0.2
-        self.epsilon = 0.1
+        self.epsilon = 0.3
         self.discount_factor = 0.9
 
-    def update_energy(self, sunny):
-        super().update_energy(sunny)
-        self.current_state = (np.sign(self.energy_bal), sunny)
+    def update_energy(self, weather):
+        super().update_energy(weather)
+        stored_flag = 0
+        # Use stored energy if available
+        if self.storage > 0:
+            stored_flag = 1
+            self.energy_bal = self.energy_bal + self.storage
+            self.storage = 0
+
+        energy_status = np.sign(self.energy_bal)
+        if energy_status == 0:
+            energy_status = 1
+
+        self.current_state = (energy_status, weather, stored_flag)
 
     def energy_decision(self):
         self.action = self.choose_action(self.current_state)
@@ -39,12 +56,14 @@ class QHousehold(Household):
         elif self.action == "store":
             self.status = 0
 
-    def buy(self):
-        if self.action == "buy":
-            self._buy_energy()
-
     def store(self):
-        pass
+        if self.action == "store":
+            if self.energy_bal > 0:
+                transfered = self.energy_bal
+                self.storage += transfered
+                self.energy_bal = 0
+            else:
+                pass
 
     def sell(self):
         if self.action == "sell":
@@ -62,13 +81,17 @@ class QHousehold(Household):
         return action
 
     def update_q_values(self, forcast):
-        reward = self.get_reward()
-        next_state = (np.sign(self.energy_bal), forcast)
+        store_flag = 1 if self.storage > 0 else 0
+        energy_status = np.sign(self.energy_bal)
+        if energy_status == 0:
+            energy_status = 1
+        next_state = (energy_status, forcast, store_flag)
 
         current_q_value = self.get_q_value(self.current_state, self.action)
         next_q_values = [self.get_q_value(next_state, action) for action in self.action_space]
         next_q_value = max(next_q_values)
 
+        reward = self.get_reward()
         sample = reward + self.discount_factor * next_q_value
         new_q_value = (1 - self.learning_rate) * current_q_value + self.learning_rate * sample
 
@@ -80,7 +103,7 @@ class QHousehold(Household):
     def get_reward(self):
         reward = 0
         if self.energy_bal < 0:
-            reward -= 1000
+            reward -= 100
         reward += self.daily_cost
         return reward
 
@@ -96,63 +119,3 @@ class QHousehold(Household):
                 best_action = action
 
         return best_action
-
-    def _buy_energy(self):
-        seller, distance = self._bfs()
-        if seller:
-            # Buy all of neighbor's energy
-            if abs(self.energy_bal) >= seller.energy_bal:
-                # Transfer
-                transfered = abs(seller.energy_bal)
-                self.local_trans += transfered
-                # Balance
-                self.energy_bal = self.energy_bal + seller.energy_bal
-                seller.energy_bal = 0
-                # Cost
-                seller.daily_cost += transfered
-                seller.total_cost += transfered
-                self.daily_cost += -(transfered * distance)
-                self.total_cost += self.daily_cost
-
-                if self.energy_bal < 0:
-                    self._buy_energy()
-
-            # Buy some of neighbor's energy
-            elif abs(self.energy_bal) < seller.energy_bal:
-                # Transfer
-                transfered = abs(self.energy_bal)
-                self.local_trans += transfered
-                # Balance
-                seller.energy_bal = seller.energy_bal + self.energy_bal
-                self.energy_bal = 0
-                # Cost
-                seller.daily_cost += transfered
-                seller.total_cost += transfered
-                self.daily_cost += -(transfered * distance)
-                self.total_cost += self.daily_cost
-
-        # Buy from the grid
-        else:
-            # Transfer
-            transfered = abs(self.energy_bal)
-            self.grid_trans += transfered
-            # Balance
-            self.energy_bal = 0
-            # Cost
-            self.daily_cost += -(transfered * 10)
-            self.total_cost += self.daily_cost
-
-    def _bfs(self):
-        queue = NodeQueue()
-        queue.enqueue(self)
-        distances = {self: 0}
-        while not queue.is_empty():
-            parent_node = queue.dequeue()
-            for child in self.network.neighbors(parent_node):
-                # If the node is a seller, return it
-                if child.action == "sell" and child.energy_bal > 0:
-                    return child, distances[parent_node] + 1
-                if child not in distances:
-                    distances[child] = distances[parent_node] + 1
-                    queue.enqueue(child)
-        return None, None
