@@ -3,20 +3,16 @@ from Agents.Household import Household
 
 
 class ReflexHousehold(Household):
-    def setup(self):
-        """Initialize a new variable at agent creation."""
-        super().setup()
-
-    def update_energy(self, sunny):
-        super().update_energy(sunny)
-
-    def set_status(self):
-        super().set_status()
-
-    def energy_decision(self):
+    def buy(self):
         # Need to buy energy
-        if self.energy_bal < 0:
+        if self.action == "buy":
             self._buy_energy()
+
+    def store(self):
+        pass
+
+    def sell(self):
+        pass
 
     def _buy_energy(self):
         seller, distance = self._bfs()
@@ -30,8 +26,10 @@ class ReflexHousehold(Household):
                 self.energy_bal = self.energy_bal + seller.energy_bal
                 seller.energy_bal = 0
                 # Cost
-                seller.cost += transfered
-                self.cost -= transfered * distance
+                seller.daily_cost += transfered
+                seller.total_cost += seller.daily_cost
+                self.daily_cost += -(transfered * distance)
+                self.total_cost += self.daily_cost
 
                 if self.energy_bal < 0:
                     self._buy_energy()
@@ -45,8 +43,10 @@ class ReflexHousehold(Household):
                 seller.energy_bal = seller.energy_bal + self.energy_bal
                 self.energy_bal = 0
                 # Cost
-                seller.cost += transfered
-                self.cost -= transfered * distance
+                seller.daily_cost += transfered
+                seller.total_cost += seller.daily_cost
+                self.daily_cost = -(transfered * distance)
+                self.total_cost += self.daily_cost
 
         # Buy from the grid
         else:
@@ -56,12 +56,8 @@ class ReflexHousehold(Household):
             # Balance
             self.energy_bal = 0
             # Cost
-            self.cost -= transfered * 10
-
-    def sell_remaining(self):
-        if self.energy_bal > 0:
-            self.energy_bal = 0
-            self.cost += self.energy_bal
+            self.daily_cost += -(transfered * 10)
+            self.total_cost += self.daily_cost
 
     def _bfs(self):
         queue = NodeQueue()
@@ -71,9 +67,50 @@ class ReflexHousehold(Household):
             parent_node = queue.dequeue()
             for child in self.network.neighbors(parent_node):
                 # If the node is a seller, return it
-                if child.energy_bal > 0:
-                    return child, distances[parent_node] + 1
+                if child.action == "sell" and child.energy_bal > 0:
+                    return child, (distances[parent_node] + 1)
                 if child not in distances:
                     distances[child] = distances[parent_node] + 1
                     queue.enqueue(child)
         return None, None
+
+
+class ReflexSellHousehold(ReflexHousehold):
+    def energy_decision(self):
+        if self.energy_bal < 0:
+            self.action = "buy"
+            self.status = -1
+        elif self.energy_bal >= 0:
+            self.action = "sell"
+            self.status = 1
+
+    def sell(self):
+        if self.action == "sell":
+            self.daily_cost += self.energy_bal
+            self.total_cost += self.daily_cost
+
+
+class ReflexStoreHousehold(ReflexHousehold):
+    def setup(self):
+        """Initialize a new variable at agent creation."""
+        super().setup()
+        self.storage = 0
+
+    def energy_decision(self):
+        # Use stored energy if available
+        if self.storage > 0:
+            self.energy_bal += self.storage
+            self.storage = 0
+
+        if self.energy_bal < 0:
+            self.action = "buy"
+            self.status = -1
+        elif self.energy_bal >= 0:
+            self.action = "store"
+            self.status = 0
+
+    def store(self):
+        if self.action == "store":
+            transfered = self.energy_bal
+            self.storage += transfered
+            self.energy_bal = 0

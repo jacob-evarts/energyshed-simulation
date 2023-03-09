@@ -4,6 +4,7 @@ import agentpy as ap
 
 class Household(ap.Agent):
     def setup(self):
+        self.action = None
         self.status = 0
         self.producer = random.random() < self.model.percent_producers
         if self.producer:
@@ -15,33 +16,31 @@ class Household(ap.Agent):
 
         self.local_trans = 0
         self.grid_trans = 0
-        self.cost = 0
+        self.daily_cost = 0
+        self.total_cost = 0
 
-    def update_energy(self, sunny):
+    def update_energy(self, weather):
         # Account for variability in production (shading, wind, temperature)
         if self.producer:
-            if sunny:
-                self.production = random.normalvariate(12, 2)
+            if weather == "sun":
+                self.production = random.normalvariate(11, 2)
             else:
                 self.production = random.normalvariate(7, 2)
 
         self.energy_bal = self.production - self.consumption
 
-    def set_status(self):
-        # Excess of energy
-        if self.energy_bal > 0:
-            self.status = 1
-        # Need to buy energy
-        elif self.energy_bal < 0:
-            self.status = -1
-        else:
-            self.status = 0
+        self.grid_trans = 0
+        self.local_trans = 0
+        self.daily_cost = 0
 
     def energy_decision(self):
         raise NotImplementedError
 
-    def _buy_energy(self):
+    def buy(self):
         raise NotImplementedError
 
-    def sell_remaining(self):
+    def store(self):
+        raise NotImplementedError
+
+    def sell(self):
         raise NotImplementedError
