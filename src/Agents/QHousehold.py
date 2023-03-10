@@ -1,5 +1,4 @@
 import numpy as np
-from node_queue import NodeQueue
 
 from Agents.ReflexHousehold import ReflexHousehold
 
@@ -27,8 +26,8 @@ class QHousehold(ReflexHousehold):
                 self.q_values[(state, action)] = 0
 
         # Exploration factor
-        self.learning_rate = 0.2
-        self.epsilon = 0.3
+        self.learning_rate = 0.1
+        self.epsilon = 0.2
         self.discount_factor = 0.9
 
     def update_energy(self, weather):

@@ -1,6 +1,5 @@
 import random
 import agentpy as ap
-import networkx as nx
 import logging
 
 from Agents.GridHousehold import GridHousehold
@@ -86,8 +85,15 @@ class EnergyShedModel(ap.Model):
         else:
             weather_tomorrow = "clouds"
 
-        # Log information from one particular agent
-        tracked_agent = self.agents[0]
+        # Log information from a producing agent if possible
+        tracked_agent = None
+        for agent in self.agents:
+            if agent.producer:
+                tracked_agent = agent
+                break
+        if not tracked_agent:
+            tracked_agent = self.agents[0]
+
         self.agents.update_energy(self.weather)
         self.agents.energy_decision()
         self.agents.buy()

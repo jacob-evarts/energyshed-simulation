@@ -485,3 +485,1508 @@ INFO:root:Energy balance: 2.1983848189760646, Daily cost: 2.1983848189760646
 INFO:root:-- Step 20 --
 INFO:root:Grid transfered: 0.3369738324050058, Local transferred: 0
 INFO:root:Energy balance: 0, Daily cost: -3.369738324050058
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 8 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 9 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 10 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 11 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 12 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 13 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 14 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 15 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 16 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 17 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 18 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 19 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 20 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 21 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 22 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 23 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 24 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 25 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 26 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 27 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 28 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 29 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 30 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 31 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 32 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 33 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 34 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 35 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 36 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 37 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 38 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 39 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 40 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 41 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 42 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 43 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 44 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 45 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 46 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 47 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 48 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 49 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 50 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 51 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 52 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 53 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 54 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 55 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 56 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 57 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 58 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 59 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 60 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 61 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 62 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 63 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 64 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 65 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 66 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 67 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 68 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 69 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 70 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 71 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 72 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 73 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 74 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 75 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 76 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 77 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 78 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 79 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 80 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 81 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 82 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 83 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 84 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 85 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 86 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 87 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 88 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 89 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 90 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 91 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 92 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 93 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 94 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 95 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 96 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 97 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 98 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 99 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 100 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 101 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 102 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 103 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 104 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 105 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 106 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 107 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 108 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 109 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 110 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 111 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 112 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 113 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 114 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 115 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 116 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 117 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 118 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 119 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 120 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 121 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 122 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 123 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 124 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 125 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 126 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 127 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 128 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 129 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 130 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 131 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 132 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 133 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 134 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 135 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 136 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 137 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 138 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 139 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 140 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 141 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 142 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 143 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 144 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 145 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 146 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 147 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 148 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 149 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 150 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 151 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 152 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 153 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 154 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 155 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 156 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 157 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 158 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 159 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 160 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 161 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 162 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 163 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 164 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 165 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 166 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 167 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 168 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 169 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 170 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 171 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 172 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 173 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 174 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 175 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 176 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 177 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 178 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 179 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 180 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 181 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 182 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 183 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 184 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 185 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 186 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 187 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 188 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 189 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 190 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 191 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 192 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 193 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 194 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 195 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 196 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 197 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 198 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 199 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 200 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 8 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 9 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 10 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 11 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 12 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 13 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 14 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 15 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 16 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 17 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 18 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 19 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 20 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 21 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 22 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 23 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 24 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 25 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 26 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 27 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 28 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+WARNING:matplotlib.legend:No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+INFO:matplotlib.animation:Animation.save using <class 'matplotlib.animation.HTMLWriter'>
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 8 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 9 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 10 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 11 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 12 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 13 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 14 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 15 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 16 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 17 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 18 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 19 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 20 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 21 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 22 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 23 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 24 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 25 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 26 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 27 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 28 --
+INFO:root:Grid transfered: 10, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -100
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.2393608206729247, Daily cost: 3.2393608206729247
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.2576107801565559, Daily cost: 0.2576107801565559
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 1.9647899690550208, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -19.647899690550208
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 5.143820796595589, Daily cost: 5.143820796595589
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.692641827336562, Daily cost: 1.692641827336562
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 4.56134865440182, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -45.613486544018194
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.49853273103452267, Daily cost: 0.49853273103452267
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0.005085752509771169, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -0.05085752509771169
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 2.9148452857582665, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -29.148452857582665
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 3.775698285070483, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -37.75698285070483
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.006542646684536635, Daily cost: 0.006542646684536635
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.938168408540701, Daily cost: 1.938168408540701
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 5.58322632892548, Daily cost: 5.58322632892548
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0.4103408020894772, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -4.103408020894772
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0.6037654159294714, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -6.037654159294714
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 1.48742114280949, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -14.874211428094899
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.323824339851626, Daily cost: 3.323824339851626
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 5.922393186941112, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -59.22393186941112
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 4.5016631411386125, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -45.01663141138613
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0.2080112678838475, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -2.080112678838475
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.037109077538096, Daily cost: 0.037109077538096
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 3.2750368083352672, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -32.75036808335267
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.7513323261679297, Daily cost: 1.7513323261679297
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.022118712976429, Daily cost: 2.022118712976429
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 5.038331428334967, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -50.38331428334967
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.4908928033312563, Daily cost: 0.4908928033312563
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 5.220557444112702, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -52.20557444112701
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.9520841273796741, Daily cost: 0.9520841273796741
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.4967205047442036, Daily cost: 0.4967205047442036
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 1.8852189717552985, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -18.852189717552985
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0.19517574919535363, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -1.9517574919535363
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.4809489894943795, Daily cost: 2.4809489894943795
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 2.142826452639711, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -21.428264526397108
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 1.9028142264553232, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -19.02814226455323
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.19354109418737053, Daily cost: 0.19354109418737053
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.059421158280750674, Daily cost: 0.059421158280750674
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.9261175607416465, Daily cost: 2.9261175607416465
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 2.0222448409580647, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -20.222448409580647
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.667993601067508, Daily cost: 3.667993601067508
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.4597583564847287, Daily cost: 3.4597583564847287
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.392355511772447, Daily cost: 2.392355511772447
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 1.4281917413916023, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -14.281917413916023
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 1.0109615940072683, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -10.109615940072683
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0.3477656352377618, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -3.4776563523776183
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 5.354081130357763, Daily cost: 5.354081130357763
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.0328423152726884, Daily cost: 2.0328423152726884
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.3706173095576233, Daily cost: 2.3706173095576233
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.1971763420841857, Daily cost: 2.1971763420841857
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.175638313607445, Daily cost: 1.175638313607445
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 3.2747425755912554, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -32.74742575591255
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 2.2039693966625435, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -22.039693966625435
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0.00462593416005852, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -0.0462593416005852
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 3.588622227236712, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -35.88622227236712
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.45926441482048297, Daily cost: 0.45926441482048297
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 3.0771061011997505, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -30.771061011997503
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 1.0186948437492234, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -10.186948437492234
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 4.878184146325125, Daily cost: 4.878184146325125
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.9655049587783466, Daily cost: 0.9655049587783466
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 1.5621506815322146, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -15.621506815322146
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 1.9410641683425034, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -19.410641683425034
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 8.56770447762112, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -85.6770447762112
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0.8778280249597792, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -8.778280249597792
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.708944520129064, Daily cost: 1.708944520129064
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.6585990433461877, Daily cost: 0.6585990433461877
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 2.3621278616799763, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -23.621278616799763
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.1746643638895584, Daily cost: 2.1746643638895584
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.8003329417488416, Daily cost: 0.8003329417488416
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.8210496189938947, Daily cost: 1.8210496189938947
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.188609675371829, Daily cost: 2.188609675371829
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.9786473368931041, Daily cost: 1.9786473368931041
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.3981357555724863, Daily cost: 3.3981357555724863
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 1.9007845347241616, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -19.007845347241616
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 2.77428277214978, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -27.7428277214978
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 2.496116754327981, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -24.961167543279814
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 6.487737955186901, Daily cost: 6.487737955186901
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 5.012918433360532, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -50.12918433360532
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 3.7494628805620467, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -37.494628805620465
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 5.719930443057116, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -57.19930443057116
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.9805110246804869, Daily cost: 0.9805110246804869
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 5.04097347086455, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -50.4097347086455
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.5212543957038012, Daily cost: 1.5212543957038012
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.061875151163123476, Daily cost: 0.061875151163123476
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 1.7543897997028886, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -17.543897997028886
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.5624665307306849, Daily cost: 0.5624665307306849
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 4.964237677572584, Daily cost: 4.964237677572584
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.2301714020795558, Daily cost: 2.2301714020795558
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.36952102986165, Daily cost: 3.36952102986165
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 3.661237045638326, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -36.61237045638326
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.4442337928732627, Daily cost: 1.4442337928732627
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.6305270143058017, Daily cost: 1.6305270143058017
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.265422807836382, Daily cost: 2.265422807836382
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 6.6376147041918925, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -66.37614704191893
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.787699486952727, Daily cost: 0.787699486952727
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 1.8113084128033599, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -18.1130841280336
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0.6799361837220417, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -6.799361837220417
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 1.483099786519949, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -14.830997865199489
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.39335463787111813, Daily cost: 0.39335463787111813
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0.13516095531929118, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -1.3516095531929118
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.889271658610385, Daily cost: 2.889271658610385
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.24333763817361742, Daily cost: 0.24333763817361742
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.1367139817155394, Daily cost: 2.1367139817155394
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.851568598017785, Daily cost: 0.851568598017785
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 3.0170244881103088, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -30.170244881103088
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 1.8079702852178592, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -18.079702852178592
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.4934882724365313, Daily cost: 1.4934882724365313
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 3.1554140783582536, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -31.554140783582536
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0.34692837769378926, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -3.4692837769378926
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0.6323176597466436, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -6.323176597466436
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 6.174082180564474, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -61.74082180564474
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.3553499908401889, Daily cost: 0.3553499908401889
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0.12574958608054843, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -1.2574958608054843
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.5851324165569327, Daily cost: 2.5851324165569327
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 3.041169910722952, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -30.411699107229524
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 3.7966475469676233, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -37.96647546967623
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.0905988466830774, Daily cost: 2.0905988466830774
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.951320724936423, Daily cost: 2.951320724936423
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.9885588455410126, Daily cost: 1.9885588455410126
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.4607621706075324, Daily cost: 1.4607621706075324
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 3.396750649656239, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -33.96750649656239
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 8.841784246679136, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -88.41784246679137
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.1740087838885263, Daily cost: 2.1740087838885263
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.22278453989960134, Daily cost: 0.22278453989960134
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.6499293568026943, Daily cost: 0.6499293568026943
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.8742302378540785, Daily cost: 0.8742302378540785
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.194528946983672, Daily cost: 1.194528946983672
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 2.1425620064562336, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -21.425620064562338
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 1.1954528992050388, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -11.954528992050388
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0.28491062765043296, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -2.8491062765043296
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.778758974046518, Daily cost: 0.778758974046518
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 3.527650876566762, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -35.276508765667614
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.6293032687439393, Daily cost: 2.6293032687439393
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 1.743147250044764, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -17.43147250044764
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 2.597335344900017, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -25.97335344900017
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.1607170431907896, Daily cost: 2.1607170431907896
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.43341604573182835, Daily cost: 0.43341604573182835
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 1.7374637640782495, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -17.374637640782495
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0.767124734899804, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -7.67124734899804
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0.9489284968948866, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -9.489284968948866
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 4.698033401512447, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -46.98033401512447
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 3.3941023734783657, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -33.941023734783656
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.8816986568662397, Daily cost: 2.8816986568662397
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 3.1352365677556246, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -31.352365677556246
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0.5939705575228338, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -5.939705575228338
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 6.223995190323272, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -62.23995190323272
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.005063192992727394, Daily cost: 0.005063192992727394
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.6542747384542924, Daily cost: 2.6542747384542924
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.537002127140221, Daily cost: 2.537002127140221
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.8081717019837527, Daily cost: 2.8081717019837527
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.3261149810357615, Daily cost: 2.3261149810357615
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 2.579232373157855, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -25.79232373157855
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.3410895639919946, Daily cost: 3.3410895639919946
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0.4186700200202811, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -4.186700200202811
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 4.567715266767372, Daily cost: 4.567715266767372
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.3196475757461297, Daily cost: 0.3196475757461297
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 6.049424698197683, Daily cost: 6.049424698197683
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 1.9788479185485865, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -19.788479185485865
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 4.99729283854051, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -49.9729283854051
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 1.384463742553189, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -13.84463742553189
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 4.407607429816349, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -44.07607429816349
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.6540736948782229, Daily cost: 1.6540736948782229
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.7618092601651192, Daily cost: 1.7618092601651192
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0.8578653749200935, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -8.578653749200935
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.028002159794571213, Daily cost: 0.028002159794571213
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.3569101656615317, Daily cost: 1.3569101656615317
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.7737030128029136, Daily cost: 2.7737030128029136
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.867176609007938, Daily cost: 3.867176609007938
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0.8391843119011817, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -8.391843119011817
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.352949519002017, Daily cost: 1.352949519002017
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 3.5799101043099073, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -35.79910104309907
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0.47742442722257294, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -4.7742442722257294
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.7504845779443734, Daily cost: 2.7504845779443734
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.005883735693192449, Daily cost: 0.005883735693192449
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.47530361430544765, Daily cost: 0.47530361430544765
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.8763778657862353, Daily cost: 1.8763778657862353
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.040909527232099, Daily cost: 1.040909527232099
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 2.6611152998398078, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -26.611152998398076
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.6948338164818093, Daily cost: 0.6948338164818093
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.525432024195048, Daily cost: 1.525432024195048
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 3.8638991291991145, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -38.63899129199115
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 7.756392602133212, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -77.56392602133212
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.224650034067862, Daily cost: 3.224650034067862
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.022655095265389, Daily cost: 3.022655095265389
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0.9314459853317025, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -9.314459853317025
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.6564880884584188, Daily cost: 2.6564880884584188
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.35203977322373525, Daily cost: 0.35203977322373525
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 1.6023244193217554, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -16.023244193217554
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.9775725838975209, Daily cost: 0.9775725838975209
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.3493408433381013, Daily cost: 1.3493408433381013
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0.9692508030448881, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -9.69250803044888
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.5642518820218196, Daily cost: 1.5642518820218196
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0.36840709139685757, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -3.6840709139685757
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 1.383384584507663, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -13.833845845076631
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.7401362606232738, Daily cost: 3.7401362606232738
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 1.0462425033999807, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -10.462425033999807
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.739907526539355, Daily cost: 3.739907526539355
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0.4762628593343692, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -4.762628593343692
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.758688015365859, Daily cost: 1.758688015365859
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.5518587084978535, Daily cost: 0.5518587084978535
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0.47818951806420706, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -4.781895180642071
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 3.437515864829873, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -34.37515864829873
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 1.3014908016878959, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -13.014908016878959
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 2.089078658426809, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -20.89078658426809
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.7867978636700901, Daily cost: 0.7867978636700901
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0.3497836307351534, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -3.497836307351534
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.272346079146475, Daily cost: 2.272346079146475
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 1.143033476664744, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -11.43033476664744
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 5.641116627473103, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -56.41116627473103
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.6726564714306758, Daily cost: 3.6726564714306758
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 3.8775610853967786, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -38.775610853967784
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.872224336477583, Daily cost: 3.872224336477583
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 1.4482476762384415, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -14.482476762384415
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 3.491209396215212, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -34.91209396215212
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.3938194279055747, Daily cost: 2.3938194279055747
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 2.97440161405187, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -29.744016140518703
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 2.8650338440561125, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -28.650338440561125
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0.5542932388227886, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -5.542932388227886
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 1.1548218938355816, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -11.548218938355816
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.268949916278114, Daily cost: 1.268949916278114
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 3.741975642816903, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -37.41975642816903
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0.49175089240268477, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -4.917508924026848
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 1.6365385208667291, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -16.36538520866729
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 2.0377123896976608, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -20.377123896976606
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.40992623322143906, Daily cost: 0.40992623322143906
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0.8816989211361932, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -8.816989211361932
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0.4158469831063005, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -4.158469831063005
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.8235743099287482, Daily cost: 2.8235743099287482
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.8708472372239004, Daily cost: 2.8708472372239004
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0.12838169538786737, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -1.2838169538786737
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.2908127469268784, Daily cost: 2.2908127469268784
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0.04155604298298066, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -0.41556042982980657
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.6872833059101904, Daily cost: 2.6872833059101904
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.20470065323803155, Daily cost: 0.20470065323803155
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.7306124624472616, Daily cost: 1.7306124624472616
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.8869821328592629, Daily cost: 1.8869821328592629
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 2.615643696735357, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -26.15643696735357
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 3.386089186829114, Daily cost: 3.386089186829114
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.12141517335351182, Daily cost: 0.12141517335351182
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.5787863601800254, Daily cost: 0.5787863601800254
+INFO:root:-- Step 1 --
+INFO:root:Grid transfered: 2.4695596725978435, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -24.695596725978433
+INFO:root:-- Step 2 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.08320337778187437, Daily cost: 0.08320337778187437
+INFO:root:-- Step 3 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.9087789385781946, Daily cost: 1.9087789385781946
+INFO:root:-- Step 4 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 2.3289707401677884, Daily cost: 2.3289707401677884
+INFO:root:-- Step 5 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 1.36935338201007, Daily cost: 1.36935338201007
+INFO:root:-- Step 6 --
+INFO:root:Grid transfered: 0, Local transferred: 0
+INFO:root:Energy balance: 0.9452370271308972, Daily cost: 0.9452370271308972
+INFO:root:-- Step 7 --
+INFO:root:Grid transfered: 1.7685591363829936, Local transferred: 0
+INFO:root:Energy balance: 0, Daily cost: -17.685591363829936
