@@ -1,6 +1,8 @@
 import random
 import agentpy as ap
 
+random.seed(42)
+
 
 class Household(ap.Agent):
     def setup(self):
